@@ -51,5 +51,13 @@ Auckland, 1141
 9:00 | Review Day 1
 9:30 | Taxonomy Assignment
 10:30 | Morning Break
-
+11:00 | Exploring Taxonomy (graphing)
+11:45 | Creating custom reference database
+12:30 | Lunch
+13:30 | Introduction to diversity analyses
+14:00 | Alpha and Beta diversity
+14:45 | Afternoon Break
+15:15 | Diversity (continued)
+15:45 | Wrap up: work on own
+16:30 | End Workshop
 
