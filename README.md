@@ -1,1 +1,1 @@
-# edna_workshop_june2021
+# eDNA Workshop, June, 2021
