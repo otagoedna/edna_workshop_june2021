@@ -21,11 +21,35 @@ University of Otago, Auckland Campus
 
 Auckland, 1141
 
-<a href="https://www.eventbrite.co.nz/e/environmental-dna-workshop-auckland-tickets-156442241957#map-target" target="_blank" rel="noopener noreferrer">View Map</a>
+<a href="https://www.google.com/maps/place/36%C2%B051'21.6%22S+174%C2%B045'42.2%22E/@-36.8560007,174.7611868,19z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-36.8560007!4d174.761734?hl=en-AU" target="_blank" rel="noopener noreferrer">View Map</a>
 
 
 
-## Schedule
+## Preliminary Schedule
 
+### Thursday
+
+ Time | Topic 
+---|:---:
+9:00 | Welcome
+9:15 | Introduction to NeSI?
+10:00 | Introduction to BASH, pt 1?
+10:30 | Morning Break
+11:00 | Introduction to BASH, pt 2?
+11:30 | Introduction to R?
+12:30 | Lunch
+13:30 | Overview of Metabarcoding
+14:00 | Initial Data Trimming and QC
+14:45 | Afternoon Break
+15:15 | OTU Clustering
+16:30 | End Day 1
+
+### Friday
+
+ Time | Topic 
+---|:---:
+9:00 | Review Day 1
+9:30 | Taxonomy Assignment
+10:30 | Morning Break
 
 
