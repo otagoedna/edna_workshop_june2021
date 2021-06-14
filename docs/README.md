@@ -33,10 +33,10 @@ Auckland, 1141
 ---|:---:
 9:00 | Welcome
 9:15 | Introduction to NeSI?
-10:00 | Introduction to BASH, pt 1?
+10:00 | Introduction to BASH, pt 1
 10:30 | Morning Break
-11:00 | Introduction to BASH, pt 2?
-11:30 | Introduction to R?
+11:00 | Introduction to BASH, pt 2
+11:30 | Introduction to R
 12:30 | Lunch
 13:30 | Overview of Metabarcoding
 14:00 | Initial Data Trimming and QC
