@@ -38,10 +38,10 @@ Auckland, 1141
 11:00 | Introduction to BASH, pt 2
 11:30 | Introduction to R
 12:30 | Lunch
-13:30 | Overview of Metabarcoding
-14:00 | Initial Data Trimming and QC
+13:30 | [**Overview of Metabarcoding**](chapters/Metabarcoding_Basics.md)
+14:00 | [**Initial Data Trimming and QC**](chapters/demultiplex_and_trimming.md)
 14:45 | Afternoon Break
-15:15 | OTU Clustering
+15:15 | [**OTU Clustering**](chapters/denoising_and_clustering.md)
 16:30 | End Day 1
 
 ### Friday
