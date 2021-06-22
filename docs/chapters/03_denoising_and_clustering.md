@@ -24,13 +24,13 @@ Prior to clustering or denoising, we need to dereplicate our data into unique se
 For the first step, we will combine all of the fasta files into a single file. In the terminal, navigate to the `/data/fasta` folder:
 
 ```
-cd ../data/fasta
+$ cd ~/edna/data/fasta
 ```
 
 Now we will just concatenate all the fasta files into one using the `cat` command:
 
 ```
-cat *.fasta > combined.fasta
+$ cat *.fasta > combined.fasta
 ```
 
 
@@ -38,9 +38,9 @@ cat *.fasta > combined.fasta
 
 The next commands we will run through bash scripts, as we did with the demultiplexing and trimming. Navigate back to the `/scripts` folder and create a new script. Save this as `dereplicate_seqs.sh`
 
-
-
-
+```
+$ cd ../scripts
+```
 
 Remember to add the *shebang* to the first line of the script
 
@@ -80,9 +80,9 @@ Note how the second command uses as input the output of the first command.
 To run the script, you just have to make it executable and run it, as with the `trim_qc.sh` script
 
 ```
-chmod a+x dereplicate_seqs.sh
+$ chmod a+x dereplicate_seqs.sh
 
-./dereplicate_seqs.sh
+$ ./dereplicate_seqs.sh
 ```
 
 
@@ -90,15 +90,15 @@ chmod a+x dereplicate_seqs.sh
 To check if it worked, navigate over to the otus folder and check:
 
 ```
-cd ../otus
+$ cd ../otus
 
-ls
+$ ls
 ```
 
 or you can just list the files from the scripts folder:
 
 ```
-ls ../otus
+$ ls ../otus
 ```
 
 
