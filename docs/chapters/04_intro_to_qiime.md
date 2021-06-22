@@ -73,17 +73,28 @@ And here is the same process, with exports to flat files
 
 ## Getting started: importing files into Qiime2 format
 
-We first need to import the files produced in this morning's lesson into the Qiime2 format so they can be processed. In the command line, we will first go to the taxonomy folder and load the Qiime2 module:
+We first need to import the files produced in this morning's lesson into the Qiime2 format so they can be processed. In the command line, we will first go to the `taxonomy` folder and load the Qiime2 module:
 
 ```
-module purge
-module load QIIME2/2021.2
+$ pwd
+
+/home/username/edna/
+```
+```
+$ cd taxonomy
+```
+>Otherwise, `cd ~/edna/taxonomy
+
+
+```
+$ module purge
+$ module load QIIME2/2021.2
 ```
 
 To see the options for any Qiime2 command, you can use help:
 
 ```
-qiime tools import --help
+$ qiime tools import --help
 ```
 
 
@@ -93,13 +104,13 @@ There are just a few arguments for importing files, but many possible types and 
 We can view those by just entering the option:
 
 ```
-qiime tools import --show-importable-types
+$ qiime tools import --show-importable-types
 ```
 
 Sometimes it is necessary to specify the format of the input file. We can view those as well:
 
 ```
-qiime tools import --show-importable-formats
+$ qiime tools import --show-importable-formats
 ```
 
 These two arguments provide a good guide when you are trying to figure out kind of file you are importing
@@ -108,7 +119,7 @@ These two arguments provide a good guide when you are trying to figure out kind 
 
 ### Importing OTU fasta file and frequency table
 
-Now we will write scripts to import the OTU fasta file and frequency table. Create a text file called `import_otu_to_qiime.sh` in the scripts folder. 
+Now we will write scripts to import the OTU fasta file and frequency table. Create a text file called `import_otu_to_qiime.sh` in the `scripts` folder. 
 
 In addition to the shebang on the first line, add a line to load the qiime module:
 
