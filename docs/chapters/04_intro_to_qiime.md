@@ -83,7 +83,7 @@ $ pwd
 ```
 $ cd taxonomy
 ```
->Otherwise, `cd ~/edna/taxonomy
+>Otherwise, `cd ~/edna/taxonomy`
 
 
 ```
