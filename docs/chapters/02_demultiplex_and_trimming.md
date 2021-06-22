@@ -26,19 +26,20 @@ In order to use our data, we will have to clean it up by removing the primers an
 To get started, navigate to the */data* subfolder. Check where you are first:
 
 ```
-pwd
-```
+$ pwd
 
+/home/username/edna
+```
 Assuming you are in the main directory:
 
 ```
-cd data
+$ cd data
 ```
 
 and then use the `ls` command to see the contents of the subfolder
 
 ```
-ls -lh
+$ ls -lh
 ```
 
 The `h` option in the ls command stands for *human readable*. This option will show the size of large files as MB (megabytes) or GB (gigabytes), instead of a long string of numbers representing the number of bytes.
@@ -51,19 +52,19 @@ To start with, we will check the raw data file for quality and presence of adapt
 This program has both a command line version and a graphical user interface (GUI). On NeSI, we will use the command line version. To run this, we first load the module:
     
 ```
-module load FastQC/0.11.9
+$ module load FastQC/0.11.9
 ```
 
 For many programs (though not all), you can see the options (*arguments*) available by entering the name of the program and then `-h`:
 
 ```
-fastqc -h
+$ fastqc -h
 ```
 
 You should see a long stream of options go by. For programs with many options that do not fit on the screen, you can 'pipe' the command to `less`, so that you can control how much you see:
 
 ```
-fastqc -h | less
+$ fastqc -h | less
 ```
 
 you can then use the arrow keys to scroll through the options. Type `q` at any time to quit this view. 
@@ -72,10 +73,8 @@ you can then use the arrow keys to scroll through the options. Type `q` at any t
 We will now run FastQC on the fastq file in this subfolder:
 
 ```
-fastqc FTP103_S1_L001_R1_001.fastq.gz
+$ fastqc FTP103_S1_L001_R1_001.fastq.gz
 ```
-
-
 
 You should see the command running
 
@@ -134,7 +133,7 @@ optional arguments:
 
 Because there are a few options to add here, we will be running this program using a *bash script*, which is a simple text file in which we will enter the commands and options. This script will then be run on the command line. 
 
-To start, click on on the folder tab in the upper left corner of the browser. This will open the File Browser. Navigate to the main folder and then double click on the scripts folder. Then click on the arrow above the file view, to open a new Launcher tab. On the bottom of this tab, click on the *Text File* button. A new text file will open in the tab. 
+To start, click on on the folder tab in the **upper left corner** of the browser. This will open the File Browser. Navigate to the *main* folder and then double click on the `scripts` folder. Then click on the arrow above the file view, to open a new Launcher tab. On the bottom of this tab, click on the *Text File* button. A new text file will open in the tab. 
 
 At the very top line of the new script, type the following:
 
@@ -199,25 +198,29 @@ Now we need to rename the script so we can keep all our scripts straight. In the
 
 trim_qc.sh
 
-NOTE: you can also use the terminal to rename this file:
+>NOTE: you can also use the terminal to rename this file:
 
 ```
-mv untitled.txt trim_qc.sh
+$ mv untitled.txt trim_qc.sh
 ```
-
-
 
 
 In order to run this file, we need to make it *executable*. In the terminal, use this command:
 
 ```
-chmod a+x trim_qc.sh
+$ pwd
+
+/home/username/edna/scripts
+```
+
+```
+$ chmod a+x trim_qc.sh
 ```
 
 Now, to run this command, in the terminal run it like this:
 
 ```
-./trim_qc.sh
+$ ./trim_qc.sh
 ```
 
 If it works, then you should see the outputs begin to be generated. This will take a couple of minutes to run. While this is running, in the Folder tab, you can navigate over to the data folder, where you should see new subfolders with the trimmed fastq and fasta files.
@@ -234,23 +237,23 @@ The `/trimmed` subfolder has the fastq sequence files from which primers and bar
 In the terminal, we will have a peak at each of these files:
 
 ```
-cd ../data/trimmed
+$ cd ../data/trimmed
 
-head -12 AM1_trim.fastq
+$ head -12 AM1_trim.fastq
 ```
 
 Let's run FastQC on one of these sequences to compare to the original:
 
 ```
-fastqc AM1_trim.fastq
+$ fastqc AM1_trim.fastq
 ```
 
 We will not see much immediate difference at the \_filt.fastq files. But using fastqc we will see a little more.
 
 ```
-cd ../fastq
+$ cd ../fastq
 
-head -12 AM1_filt.fastq
+$ head -12 AM1_filt.fastq
 
 fastqc AM1_filt.fastq
 ```
