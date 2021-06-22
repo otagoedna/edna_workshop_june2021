@@ -40,10 +40,10 @@ Auckland, 1141
 11:00 | Introduction to BASH, pt 2
 11:30 | Introduction to R
 12:30 | Lunch
-13:30 | [**Overview of Metabarcoding**](chapters/Metabarcoding_Basics.md)
-14:00 | [**Initial Data Trimming and QC**](chapters/demultiplex_and_trimming.md)
+13:30 | [**Overview of Metabarcoding**](chapters/01_Metabarcoding_Basics.md)
+14:00 | [**Initial Data Trimming and QC**](chapters/02_demultiplex_and_trimming.md)
 14:45 | Afternoon Break
-15:15 | [**OTU Clustering**](chapters/denoising_and_clustering.md)
+15:15 | [**OTU Clustering**](chapters/03_denoising_and_clustering.md)
 16:30 | End Day 1
 
 ### Friday
@@ -51,10 +51,10 @@ Auckland, 1141
  Time | Topic 
 ---|:---:
 9:00 | Review Day 1
-9:30 | [**Introduction to Qiime**](chapters/intro_to_qiime.md)
+9:30 | [**Introduction to Qiime**](chapters/04_intro_to_qiime.md)
 10:30 | Morning Break
-11:00 | [**Taxonomy Assignment**](chapters/taxonomy_assignment.md)
-12:00 | Exploring Taxonomy (graphing)
+11:00 | [**Taxonomy Assignment**](chapters/05_taxonomy_assignment.md)
+12:00 | [**Getting started exploring the data**](chapters/06_importing_into_R.md)
 12:30 | Lunch
 13:30 | Introduction to diversity analyses
 14:00 | Alpha and Beta diversity
