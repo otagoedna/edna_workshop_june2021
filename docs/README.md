@@ -4,7 +4,7 @@
 
 Advances in genomics over the past decade have greatly expanded the breadth of community ecology, and enabled fine scale study of many ecosystems. Environmental DNA (eDNA) is DNA material isolated from environmental substrates, including water, soil, air, or even within larger organisms (using a broader definition of ‘environment’). The eDNA samples can be amplified with PCR and sequenced with next-generation sequencing technologies to study the biodiversity of the environment, in a method called metabarcoding. In this workshop we will review the most common methods for metabarcoding in order to identify the taxonomic components and determine the relationship across these communities. Through a combination of demonstration and hands-on practicals, you will learn the basic concepts and core tools needed to analyse eDNA metabarcoding data for a wide range of studies.
 
-The material for this course was developed by Hugh Cross and Gert-Jan Jeunen.
+The material for this course was developed by Hugh Cross and Gert-Jan Jeunen. Valuable contributions and suggestions were made by Ngoni Faya, Lucie Jiraska, Dinindu Senanayake, and Annabel Whibley, all of whom also helped teach the material.
 
 This workshop is sponsored by <a href="https://www.genomics-aotearoa.org.nz/" target="_blank" rel="noopener noreferrer">Genomics Aotearoa</a> and the <a href="https://www.nesi.org.nz/" target="_blank" rel="noopener noreferrer">New Zealand eScience Infrastructure (NeSI)</a>. 
 
@@ -24,6 +24,15 @@ University of Otago, Auckland Campus
 Auckland, 1141
 
 <a href="https://www.google.com/maps/place/36%C2%B051'21.6%22S+174%C2%B045'42.2%22E/@-36.8560007,174.7611868,19z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-36.8560007!4d174.761734?hl=en-AU" target="_blank" rel="noopener noreferrer">View Map</a>
+
+
+## UPDATE: 12/07/2021
+
+### Jupyter notebooks
+
+I have converted all Jupyter notebooks to webpages, and they are available from the following links: 
+
+<a href="notebook_htmls/01_Metabarcoding_Basics.html" target="_blank" rel="noopener noreferrer"><b>1. Metabarcoding Basics</b></a>
 
 
 
