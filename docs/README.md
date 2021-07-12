@@ -34,6 +34,19 @@ I have converted all Jupyter notebooks to webpages, and they are available from 
 
 <a href="notebook_htmls/01_Metabarcoding_Basics.html" target="_blank" rel="noopener noreferrer"><b>1. Metabarcoding Basics</b></a>
 
+<a href="notebook_htmls/02_demultiplex_and_trimming.html" target="_blank" rel="noopener noreferrer"><b>2. Demultiplexing and trimming</b></a>
+
+<a href="notebook_htmls/03_denoising_and_clustering.html" target="_blank" rel="noopener noreferrer"><b>3. Denoising and clustering</b></a>
+
+<a href="notebook_htmls/04_intro_to_qiime.html" target="_blank" rel="noopener noreferrer"><b>4. Introduction to QIIME</b></a>
+
+<a href="notebook_htmls/05_taxonomy_assignment.html" target="_blank" rel="noopener noreferrer"><b>5. Taxonomy assignment</b></a>
+
+<a href="notebook_htmls/06_importing_into_R.html" target="_blank" rel="noopener noreferrer"><b>6. Importing metabarcoding data into R</b></a>
+
+<a href="notebook_htmls/07_getting_started_exploring_data.html" target="_blank" rel="noopener noreferrer"><b>7. Getting started exploring data (template)</b></a>
+
+<a href="notebook_htmls/08_graphing_data_with_R.html" target="_blank" rel="noopener noreferrer"><b>8. Graphing data with R</b></a>
 
 
 ## Preliminary Schedule
